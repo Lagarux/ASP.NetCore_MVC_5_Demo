@@ -1,0 +1,12 @@
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\obj\Debug\net6.0\refint\EntityLayer.dll
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll

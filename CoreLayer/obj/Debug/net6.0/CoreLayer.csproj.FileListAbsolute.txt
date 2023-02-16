@@ -1,0 +1,12 @@
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\bin\Debug\net6.0\CoreLayer.deps.json
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\bin\Debug\net6.0\CoreLayer.dll
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\bin\Debug\net6.0\CoreLayer.pdb
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\obj\Debug\net6.0\CoreLayer.csproj.AssemblyReference.cache
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\obj\Debug\net6.0\CoreLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\obj\Debug\net6.0\CoreLayer.AssemblyInfoInputs.cache
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\obj\Debug\net6.0\CoreLayer.AssemblyInfo.cs
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\obj\Debug\net6.0\CoreLayer.csproj.CoreCompileInputs.cache
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\obj\Debug\net6.0\CoreLayer.dll
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\obj\Debug\net6.0\refint\CoreLayer.dll
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\obj\Debug\net6.0\CoreLayer.pdb
+C:\Users\ttt-g\OneDrive\Masaüstü\WSTE\Visual_Studio\Asp.Net\CoreDemo\CoreLayer\obj\Debug\net6.0\ref\CoreLayer.dll
