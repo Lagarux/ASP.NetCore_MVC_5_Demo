@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore": "7.0.3",
           "Microsoft.EntityFrameworkCore.Design": "7.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.3",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.3"
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
+          "jQuery-vsdoc": "2.1.0"
         },
         "runtime": {
           "DataAccessLayer.dll": {}
@@ -58,6 +59,12 @@
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
           }
+        }
+      },
+      "jQuery/2.1.0": {},
+      "jQuery-vsdoc/2.1.0": {
+        "dependencies": {
+          "jQuery": "2.1.0"
         }
       },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -702,6 +709,9 @@
         }
       },
       "EntityLayer/1.0.0": {
+        "dependencies": {
+          "jQuery-vsdoc": "2.1.0"
+        },
         "runtime": {
           "EntityLayer.dll": {}
         }
@@ -734,6 +744,20 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "jQuery/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xMauIG19FNgANvxF2jmt+PVOc/nATzqK8FbsDvvsJL1Hp9Mhl1pL80fPGok/Cmz+Mhph7RaH9wXtERjsxGggCQ==",
+      "path": "jquery/2.1.0",
+      "hashPath": "jquery.2.1.0.nupkg.sha512"
+    },
+    "jQuery-vsdoc/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DS1WvcxuUq7EX682YOl9Pjw37ItPdGUBfIYZfQo+mjbdYjkLJKV4mAA7HU8siZvhLVZ4F32o4o8l9wbtRlsfsA==",
+      "path": "jquery-vsdoc/2.1.0",
+      "hashPath": "jquery-vsdoc.2.1.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",

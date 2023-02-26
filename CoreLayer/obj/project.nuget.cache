@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Jmy2IfHHPCYjUokjCbYyk1v3rkkqlvM2Dyh3ax/vJQM6Ww4ar+DxnufeR2kGRPXlD81/Itl40NWF6WhvjnOiMg==",
+  "dgSpecHash": "MuXLE3T3mWDbk/4+QNQlkGYq2ioKW1U2CNmFSOEUtzSQ6B5XOEpZn7IXfiSAG3MihOqMXfLd4JVkMx4cy0YSgQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\ttt-g\\OneDrive\\Masaüstü\\WSTE\\Visual_Studio\\Asp.Net\\CoreDemo\\CoreLayer\\CoreLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ttt-g\\.nuget\\packages\\jquery\\2.1.0\\jquery.2.1.0.nupkg.sha512",
+    "C:\\Users\\ttt-g\\.nuget\\packages\\jquery-vsdoc\\2.1.0\\jquery-vsdoc.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,11 +1,56 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "jQuery/2.1.0": {
+        "type": "package"
+      },
+      "jQuery-vsdoc/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "jQuery": "2.1.0"
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "jQuery/2.1.0": {
+      "sha512": "xMauIG19FNgANvxF2jmt+PVOc/nATzqK8FbsDvvsJL1Hp9Mhl1pL80fPGok/Cmz+Mhph7RaH9wXtERjsxGggCQ==",
+      "type": "package",
+      "path": "jquery/2.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/Scripts/jquery-2.1.0-vsdoc.js",
+        "Content/Scripts/jquery-2.1.0.js",
+        "Content/Scripts/jquery-2.1.0.min.js",
+        "Content/Scripts/jquery-2.1.0.min.map",
+        "Tools/common.ps1",
+        "Tools/install.ps1",
+        "Tools/jquery-2.1.0.intellisense.js",
+        "Tools/uninstall.ps1",
+        "jquery.2.1.0.nupkg.sha512",
+        "jquery.nuspec"
+      ]
+    },
+    "jQuery-vsdoc/2.1.0": {
+      "sha512": "DS1WvcxuUq7EX682YOl9Pjw37ItPdGUBfIYZfQo+mjbdYjkLJKV4mAA7HU8siZvhLVZ4F32o4o8l9wbtRlsfsA==",
+      "type": "package",
+      "path": "jquery-vsdoc/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/Scripts/jquery-2.1.0-vsdoc.js",
+        "jquery-vsdoc.2.1.0.nupkg.sha512",
+        "jquery-vsdoc.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "jQuery-vsdoc >= 2.1.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ttt-g\\.nuget\\packages\\": {},
@@ -50,6 +95,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "jQuery-vsdoc": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

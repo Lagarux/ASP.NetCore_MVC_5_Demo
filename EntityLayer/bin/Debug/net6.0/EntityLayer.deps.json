@@ -7,8 +7,17 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "EntityLayer/1.0.0": {
+        "dependencies": {
+          "jQuery-vsdoc": "2.1.0"
+        },
         "runtime": {
           "EntityLayer.dll": {}
+        }
+      },
+      "jQuery/2.1.0": {},
+      "jQuery-vsdoc/2.1.0": {
+        "dependencies": {
+          "jQuery": "2.1.0"
         }
       }
     }
@@ -18,6 +27,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "jQuery/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xMauIG19FNgANvxF2jmt+PVOc/nATzqK8FbsDvvsJL1Hp9Mhl1pL80fPGok/Cmz+Mhph7RaH9wXtERjsxGggCQ==",
+      "path": "jquery/2.1.0",
+      "hashPath": "jquery.2.1.0.nupkg.sha512"
+    },
+    "jQuery-vsdoc/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DS1WvcxuUq7EX682YOl9Pjw37ItPdGUBfIYZfQo+mjbdYjkLJKV4mAA7HU8siZvhLVZ4F32o4o8l9wbtRlsfsA==",
+      "path": "jquery-vsdoc/2.1.0",
+      "hashPath": "jquery-vsdoc.2.1.0.nupkg.sha512"
     }
   }
 }

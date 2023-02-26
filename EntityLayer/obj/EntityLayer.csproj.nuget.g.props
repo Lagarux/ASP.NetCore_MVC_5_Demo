@@ -13,4 +13,7 @@
     <SourceRoot Include="C:\Users\ttt-g\.nuget\packages\" />
     <SourceRoot Include="D:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\ttt-g\.nuget\packages\jquery\2.1.0</PkgjQuery>
+  </PropertyGroup>
 </Project>

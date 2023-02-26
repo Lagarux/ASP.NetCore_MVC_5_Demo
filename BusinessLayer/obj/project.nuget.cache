@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "/LDClwqvufZfuZjDjV0rGxYwKbLVJ1psetjDhoUCSTXop9UwDa05k7komDj5cdB84bZh8qLLuid9wGx/6on//w==",
+  "dgSpecHash": "DYV8AtaEASit4CBpZuj0n5mJrGd7qnb7BKtFnJGftim/457DPPNjchErCZVmKV6JHA38/o30Cc/Vn/U7KOzqcA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ttt-g\\OneDrive\\Masaüstü\\WSTE\\Visual_Studio\\Asp.Net\\CoreDemo\\BusinessLayer\\BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ttt-g\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\ttt-g\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\ttt-g\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\ttt-g\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
+    "C:\\Users\\ttt-g\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
+    "C:\\Users\\ttt-g\\.nuget\\packages\\jquery\\2.1.0\\jquery.2.1.0.nupkg.sha512",
+    "C:\\Users\\ttt-g\\.nuget\\packages\\jquery-vsdoc\\2.1.0\\jquery-vsdoc.2.1.0.nupkg.sha512",
     "C:\\Users\\ttt-g\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ttt-g\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ttt-g\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.1\\microsoft.data.sqlclient.5.0.1.nupkg.sha512",
