@@ -444,11 +444,11 @@ a.btn.btn-primary.read-m {
     background: #01cd74;
     border: none;
 }
-a.btn.btn-primary.read-m:hover,a.btn.btn-primary.read-m:focus{
-   background:#fff;
-   color:#222;
-   box-shadow:none!important;
-}
+	a.btn.btn-primary.read-m:hover, a.btn.btn-primary.read-m:focus {
+		background: #000;
+		color: #01cd74;
+		box-shadow: none !important;
+	}
 .read {
     margin-top: 1em;
 }
@@ -1108,7 +1108,7 @@ footer {
 
 .subscribe-form {
     margin: 1em auto 0;
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 .footer-grid-agileits-w3ls h2,.footer-grid-agileits-w3ls h3 {
@@ -1180,6 +1180,14 @@ footer {
 
 /*--//footer--*/
 
+.footer-blog-title{
+	color:white !important;
+	transition:0.4s all ease-in-out;
+}
+	.footer-blog-title:hover {
+		color: #01cd74 !important;
+	}
+
 /*--/copyright--*/
 
 .copyrighttop {
@@ -1232,6 +1240,14 @@ a.facebook:hover {
 }
 
 /*--// copyright-- */
+
+.design-owner{
+	transition:0.4s all ease-in-out;
+}
+
+.design-owner:hover {
+	color: #01cd74;
+}
 
 /*--responsive--*/
 

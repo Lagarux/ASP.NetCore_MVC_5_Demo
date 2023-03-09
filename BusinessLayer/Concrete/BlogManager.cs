@@ -18,20 +18,15 @@ namespace BusinessLayer.Concrete
 			_ibd = ibd;
 		}
 
-		public void AddBlog(Blog blog)
-		{
-			throw new NotImplementedException();
-		}
-
 		public List<Blog> GetBlogById(int id)
 		{
 			return _ibd.GetListAll(x=> x.BlogID == id);
 		}
 
-		public List<Blog> GetBlogList()
+		public List<Blog> GetLast3Blog()
 		{
-			return _ibd.GetListAll();
-		}
+            return _ibd.GetListAll().Take(3).ToList();
+        }
 
         public List<Blog> GetBlogListByWriter(int id)
         {
@@ -43,14 +38,34 @@ namespace BusinessLayer.Concrete
 			return _ibd.GetListWithCategory();
 		}
 
-        public void RemoveBlog(Blog blog)
-		{
-			throw new NotImplementedException();
-		}
+        public List<Blog> GetWritersListWithCategory(int id)
+        {
+            return _ibd.GetListWithCategoryByWriter(id);
+        }
 
-		public void UpdateBlog(Blog blog)
-		{
-			throw new NotImplementedException();
-		}
+        public void AddT(Blog t)
+        {
+            _ibd.Insert(t);
+        }
+
+        public void DeleteT(Blog t)
+        {
+            _ibd.Delete(t);
+        }
+
+        public void UpdateT(Blog t)
+        {
+            _ibd.Update(t);
+        }
+
+        public List<Blog> GetList()
+        {
+            return _ibd.GetListAll();
+        }
+
+        public Blog GetById(int id)
+        {
+            return _ibd.GetByID(id);
+        }
     }
 }

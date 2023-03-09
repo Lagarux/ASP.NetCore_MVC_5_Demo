@@ -1,4 +1,5 @@
 ﻿using BusinessLayer.Concrete;
+using CoreDemo.Controllers;
 using DataAccessLayer.EntityFramework;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,7 +11,8 @@ namespace CoreDemo.ViewComponents.Blog
 
         public IViewComponentResult Invoke()
         {
-            var values = bm.GetBlogListByWriter(1);
+            var blogValue = bm.GetBlogById(BlogController.BI).Select(x => x.WriterID).FirstOrDefault();
+            var values = bm.GetBlogListByWriter(blogValue);
             return View(values);
         }
     }

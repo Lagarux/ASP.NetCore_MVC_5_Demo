@@ -23,9 +23,34 @@ namespace BusinessLayer.Concrete
 			ICD.Insert(comment);
 		}
 
-		public List<Comment> GetCommentList(int id)
+        public void AddT(Comment t)
+        {
+            ICD.Insert(t);
+        }
+
+        public void DeleteT(Comment t)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Comment GetById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Comment> GetCommentList(int id)
 		{
 			return ICD.GetListAll(x=> x.BlogID == id);
 		}
-	}
+
+        public List<Comment> GetList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void UpdateT(Comment t)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

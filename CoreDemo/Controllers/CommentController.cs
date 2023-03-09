@@ -20,7 +20,7 @@ namespace CoreDemo.Controllers
 			c.CommentDate= DateTime.Parse(DateTime.Now.ToShortDateString());
 			c.CommentStatus = true;
 			c.BlogID = BlogController.BI;
-			cm.AddComment(c);
+			cm.AddT(c);
 			Response.Redirect("/Blog/BlogReadAll/"+c.BlogID);
 			return PartialView();
 		}

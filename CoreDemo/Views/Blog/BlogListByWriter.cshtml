@@ -1,0 +1,99 @@
+﻿@using EntityLayer.Concrete
+@model List<Blog>
+
+@{
+    ViewData["Title"] = "BlogListByWriter";
+    Layout = "~/Views/Writer/WriterLayout.cshtml";
+}
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<div class="page-header">
+    <h1 class="card-title">Yazarın Blogları</h1>
+</div>
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th> ID </th>
+                        <th> Blog Başlığı </th>
+                        <th> Oluşturulma Tarihi </th>
+                        <th> Kategori </th>
+                        <th> Vitrin Durumu </th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach(var item in Model)
+                    {
+                        <tr>
+                            <td class="py-1">
+                               @item.BlogID
+                            </td>
+                            <td> @item.BlogTitle </td>
+                            <td>
+                                @(((DateTime)item.BlogCreateDate).ToString("dd MMM yyyy"))
+                            </td>
+                            <td> @*@ViewBag.categoryName*@ @item.Category.CategoryName </td>
+                            <td> @(item.BlogStatus == true ? "Aktif" : "Pasif") </td>
+                            <td> <form asp-controller="Blog" asp-action="DeleteBlog" asp-route-id="@item.BlogID"> <a onclick="return confirmation(this)" class="btn btn-danger">Sil</a></form> </td>
+                            <td> <a asp-controller="Blog" asp-action="EditBlog" asp-route-id="@item.BlogID" class="btn btn-warning">Düzenle</a> </td>
+
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+            <br />
+            <a asp-controller="Blog" asp-action="BlogAdd" class="btn btn-info"> Yeni Blog Oluştur</a>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function confirmation(element){
+        const swalWithBootstrapButtons = Swal.mixin({
+            customClass : {
+                confirmButton: 'btn btn-success',
+                cancelButton: 'btn btn-danger'
+            },
+            buttonStyling:false
+        });
+        //
+        swalWithBootstrapButtons.fire({
+            title: 'Emin misiniz?',
+            text: "Bu işlem geri alınamaz!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonText: 'Evet, sil!',
+            cancelButtonText: 'Hayır, iptal',
+            reverseButtons: true,
+            timer: 3000
+        }).then((result) => {
+            if (result.isConfirmed) 
+            {
+                    swalWithBootstrapButtons.fire({
+                    title: 'Silindi!',
+                    text: 'Kategori silindi.',
+                    icon: 'success',
+                    timer: '2000'
+                });
+
+                $("form").submit();
+            } 
+            else if ( result.dismiss === Swal.DismissReason.cancel) 
+            {
+                swalWithBootstrapButtons.fire(
+                    'İptal edildi',
+                    '',
+                    'error'
+                )
+            }
+        })
+    };
+</script>
+

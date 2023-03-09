@@ -11,9 +11,9 @@
 	@foreach (var item in Model)
 	{
 
-			<div class="media" style="margin: 1em 0;">
-			<img src="~/CoreBlogTema/images/t1.jpg" alt="" class="img-fluid" />
-			<div class="media-body">
+			<div class="media row" style="margin: 1em 0;">
+			<img src="~/images/user-regular.svg" alt="" class="img-fluid col-2" />
+			<div class="media-body col-11">
 				<h5 class="mt-0">@item.CommentUserName</h5>
 				<p>
 					@item.CommentContent

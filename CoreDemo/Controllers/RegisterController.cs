@@ -35,7 +35,7 @@ namespace CoreDemo.Controllers
 				{
 					w.WriterImage = "Standart Profil Fotoğrafı";
 				}
-                wm.AddWriter(w);
+                wm.AddT(w);
                 return RedirectToAction("Index", "Blog");
             }
 			else
